@@ -402,8 +402,5 @@ with block:
 
 
 block.launch(
-    server_name=args.server,
-    server_port=args.port,
-    share=args.share,
-    inbrowser=args.inbrowser,
+    share=True
 )
